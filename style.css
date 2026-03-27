@@ -1,14 +1,4 @@
-/* style.css */
-/* Used by: index.html, resume.html, portfolio.html */
 
-/* I checked all colors for contrast at: https://webaim.org/resources/contrastchecker/ */
-/* #1a4a1a (dark green) on #ffffff (white)  = 10.2:1 -- PASSES WCAG 1.4.3 */
-/* #1a1a1a (near black) on #f5f5f5 (gray)   = 16.1:1 -- PASSES WCAG 1.4.3 */
-
-
-/* ---------------------------
-   BODY
---------------------------- */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -16,10 +6,6 @@ body {
     margin: 0;
 }
 
-
-/* ---------------------------
-   NAVBAR
---------------------------- */
 nav {
     background-color: #1a4a1a;
     padding: 15px;
@@ -36,26 +22,20 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* visited links are a different color so you know you've been there */
-/* source: https://www.w3.org/WAI/tutorials/page-structure/sections/ */
 nav a:visited {
     color: #b2dfb2;
 }
 
 
-/* ---------------------------
-   MAIN CONTENT
---------------------------- */
+
 main {
     max-width: 900px;
     margin: 40px auto;
-    padding: 0 20px 200px 20px;  /* extra padding at the bottom pushes footer down */
+    padding: 0 20px 200px 20px;  /* extra padding at the bottom to push footer down */
 }
 
 
-/* ---------------------------
-   HEADINGS
---------------------------- */
+
 h1 {
     color: #1a4a1a;
 }
@@ -70,10 +50,9 @@ h3 {
 }
 
 
-/* ---------------------------
-   LINKS
-   unvisited = green, visited = darker green (accessibility requirement)
---------------------------- */
+/* 
+   FOR LINKS (to fulfil accessibilty requirements) unvisited = green, visited = darker green  */
+
 a {
     color: #1a5c1a;
 }
@@ -87,9 +66,6 @@ a:hover {
 }
 
 
-/* ---------------------------
-   FOOTER
---------------------------- */
 footer {
     background-color: #1a4a1a;
     color: #ffffff;
@@ -107,9 +83,6 @@ footer a:visited {
 }
 
 
-/* ---------------------------
-   PROFILE PHOTO (index.html)
---------------------------- */
 .my-photo {
     width: 200px;
     height: 200px;
@@ -117,9 +90,7 @@ footer a:visited {
 }
 
 
-/* ---------------------------
-   PROJECT CARDS (portfolio.html)
---------------------------- */
+
 .project-box {
     background-color: #ffffff;
     border: 1px solid #cccccc;
@@ -132,9 +103,6 @@ footer a:visited {
 }
 
 
-/* ---------------------------
-   GITHUB REPO CARDS (portfolio.html)
---------------------------- */
 .repo-box {
     background-color: #ffffff;
     border: 1px solid #cccccc;
